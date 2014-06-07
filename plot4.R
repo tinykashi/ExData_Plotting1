@@ -1,5 +1,6 @@
 # plot4.R
-# This program takes the 3 energy sub-metering and plots them vs days of the week
+# This program plots 4 subplots: global active power, sub metering
+#   voltage and global reactive power
 
 # read data from text file
 dat <- read.table("household_power_consumption.txt", header = TRUE,sep = ";",
